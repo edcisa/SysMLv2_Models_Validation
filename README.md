@@ -63,10 +63,6 @@ In the following image, an example of the Validator Process of a model with no e
 <img src="./imgs/no_errors.PNG" >
 
 
-## License
-
-** Preguntar a Edu
-
 ## Contributors
 
 - {**ecibrian**, **jolivert**, **joalvare**, **llorens**}@inf.uc3m.es 
