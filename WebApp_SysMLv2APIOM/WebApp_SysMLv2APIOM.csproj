@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SysMLAPIOM\SysMLv2APIOM.csproj">
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SysMLv2APIOM">
+      <HintPath>..\SysMLAPIOM\obj\Debug\net8.0\SysMLv2APIOM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

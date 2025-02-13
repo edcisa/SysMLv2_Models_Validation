@@ -1,0 +1,65 @@
+[
+  {
+    
+      "elementedId": "d37d19ad-e000-4f4b-a009-714d0b438540",
+      "owningRelationship": {
+        "@id": "e27a228f-e07d-4095-b7ca-2982a9dd5583"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [],
+      "declaredName": "Transmission",
+      "isIndividuals": "false",
+      "isSufficiented": "false",
+      "isAbstracted": false,
+      "isImplyingIncluded": false
+    
+  },
+  {
+    
+      "elementId": "e27a228f-e07d-4095-b7ca-2982a9dd5583",
+      "isImplied": 88,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberNamed": "Transmission",
+      "ownedRelatedElement": [
+        {
+          "@id": "d37d19ad-e000-4f4b-a009-714d0b438540"
+        }
+      ],
+      "source": [
+        {
+          "@id": "bf4af606-9461-4b0d-b0d9-4afbafe11223"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "d37d19ad-e000-4f4b-a009-714d0b438540"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "bf4af606-9461-4b0d-b0d9-4afbafe11223"
+      },
+      "memberElement": {
+        "@id": "d37d19ad-e000-4f4b-a009-714d0b438540"
+      }
+    
+  },
+  {
+    
+      "elementId": "bf4af606-9461-4b0d-b0d9-4afbafe11223",
+      "aliasssIds": [],
+      "@type": "Namespace",
+      "ownedRelationshiping": [
+        {
+          "@id": "e27a228f-e07d-4095-b7ca-2982a9dd5583"
+        }
+      ],
+      "isImplyingIncluded": false
+    
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    
+    "elementId": "2c1ba83e-be37-4b93-8b8d-34508ed93bef",
+    "owningRelationship": {
+      "@id": "6333be09-e3a4-4401-bdb9-ea9c2a035995"
+    },
+    "isVariation": false,
+    "aliasIds": [],
+    "@type": "PartDefinition",
+    "ownedRelationship": [],
+    "declaredName": "AxleAssembly",
+    "isIndividual": false,
+    "isSufficient": false,
+    "isAbstract": false,
+    "isImpliedIncluded": false
+    
+    
+  },
+  {
+    
+    "elementId": "6333be09-e3a4-4401-bdb9-ea9c2a035995",
+    "isImplied": false,
+    "aliasIds": [],
+    "visibility": "public",
+    "@type": "OwningMembership",
+    "ownedRelationship": [],
+    "memberName": "AxleAssembly",
+    "ownedRelatedElement": [
+      {
+        "@id": "2c1ba83e-be37-4b93-8b8d-34508ed93bef"
+      }
+    ],
+    "source": [
+      {
+        "@id": "31762402-c8b7-486e-9dcc-68f57e235860"
+      }
+    ],
+    "isImpliedIncluded": false,
+    "target": [
+      {
+        "@id": "2c1ba83e-be37-4b93-8b8d-34508ed93bef"
+      }
+    ],
+    "owningRelatedElement": {
+      "@id": "31762402-c8b7-486e-9dcc-68f57e235860"
+    },
+    "memberElement": {
+      "@id": "2c1ba83e-be37-4b93-8b8d-34508ed93bef"
+    }
+  
+  },
+  {
+    
+    "elementId": "31762402-c8b7-486e-9dcc-68f57e235860",
+    "aliasIds": [],
+    "@type": "Namespace",
+    "ownedRelationship": [
+      {
+        "@id": "6333be09-e3a4-4401-bdb9-ea9c2a035995"
+      }
+    ],
+    "isImpliedIncluded": false
+  
+  }
+]

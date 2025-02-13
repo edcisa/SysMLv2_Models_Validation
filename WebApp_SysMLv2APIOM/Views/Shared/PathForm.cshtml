@@ -1,0 +1,137 @@
+﻿@model FormModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Path</title>
+</head>
+<body>
+    <h2>Enter a Path</h2>
+    <form asp-action="SubmitPath" method="post">
+        <div>
+            <label id="label_path" for="Path">Path</label>
+            <input type="text" id="Path" name="Path" value="@Model.Path" required/>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div style="color: red;">
+            <h4>Please fix the following errors:</h4>
+            <ul>
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+
+    @if (Model.ParsedObjects.Count(c => c == '{') != 0)
+    {
+        <div id="text_json_validate">
+            <h3 id="json_validation">JSON Validated Succesfully.</h3>
+            
+        </div>
+    }
+
+    @if (Model.ParsedErrors.Count(c => c == '{') != 0)
+    {
+        <div>
+            <h3>Errors found (Total Errors Found = @Model.ParsedErrors.Count(c => c == '{')):</h3>
+            <!-- <pre>@Model.ParsedErrors</pre> -->
+            <table id="table_errors" border = "1">
+                <thead>
+                    <tr class="topline">
+                        <th>ID</th>
+                        <th>Error</th>
+                        <th>Description</th>
+                        <th>Suggestion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (int n in Enumerable.Range(0, Model.errorsIDs.Count))
+                    {
+                        <tr class="midline">
+                            <td class="id_cell">@Model.errorsIDs[n]</td>
+                            <td class="error_cell">@Model.toPrintErrors[n]["Key"]</td>
+                            <td class="des_cell">@Model.toPrintErrors[n]["Value"]</td>
+                            <td class="sug_cell">@(Model.toPrintErrors[n]["Value"] == "The attribute is not valid" ? Model.toPrintSuggestions[Model.toPrintErrors[n]["Key"]] : "-")</td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+
+    <style>
+        #label_path {
+            margin-right: 10px;
+        }
+
+        #Path {
+            border-radius: 20px;
+            width: 80%;
+        }
+
+        #submit {
+            border-radius: 20px;
+            height: 40px;
+            width: 10%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #json_validation {
+            text-align: center;
+        }
+
+        #table_errors {
+            width: 80%;
+            border-collapse: collapse;
+            font-size: 18px;
+            margin: auto;
+        }
+
+        .topline {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        .midline {
+            border-bottom: 1px solid gray;
+        }
+
+        .id_cell {
+            width: 7.5%;
+        }
+
+        .error_cell {
+            width: 40%;
+        }
+
+        .des_cell {
+            width: 35%;
+        }
+
+        .sug_cell {
+            width: 17.5%;
+        }
+
+        th,td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "@id": "02e85683-e29a-43fa-8e39-7e482b26158d",
+  "@type": "Project",
+  "created": "2024-10-29T08:38:46.814565+01:00",
+  "defaultBranch": {
+    "@id": "73e97467-ad29-44ce-bee4-b6339b463c4f"
+  },
+  "description": "metiendo member en feature como un dataversion",
+  "name": "Prueba feature member"
+}

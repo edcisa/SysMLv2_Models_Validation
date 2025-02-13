@@ -1,0 +1,35 @@
+{
+    "FeatureDirectionKind": [
+        "in",
+        "inout",
+        "out"
+    ],
+    "PortionKind": [
+        "timeslice",
+        "snapshot"
+    ],
+    "RequirementConstraintKind": [
+        "assumption",
+        "requirement"
+    ],
+    "StateSubactionKind": [
+        "entry",
+        "do",
+        "exit"
+    ],
+    "TransitionFeatureKind": [
+        "trigger",
+        "guard",
+        "effect"
+    ],
+    "TriggerKind": [
+        "when",
+        "at",
+        "after"
+    ],
+    "VisibilityKind": [
+        "private",
+        "protected",
+        "public"
+    ]
+}

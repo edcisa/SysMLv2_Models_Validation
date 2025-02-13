@@ -1,0 +1,12 @@
+[
+  {
+    "@id": "17884789-bab6-4897-8465-e929476f1713",
+    "@type": "Commit",
+    "created": "2024-10-18T11:48:26.325084+02:00",
+    "description": null,
+    "owningProject": {
+      "@id": "76ceb89d-d889-4753-924e-1fc2a2bce1b4"
+    },
+    "previousCommit": null
+  }
+]

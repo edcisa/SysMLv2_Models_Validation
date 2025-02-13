@@ -1,0 +1,6067 @@
+[
+  {
+    
+      "elementId": "86a1d91b-0579-4021-a109-7b1aeac7be67",
+      "aliasIds": [],
+      "@type": "Namespace",
+      "ownedRelationship": [],
+      "isImpliedIncluded": "false"
+    
+  },
+  {
+    
+      "elementId": "482dd0ef-733c-4a50-92f4-c4bb256c520d",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": false,
+      "@type": "NamespaceImport",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "86a1d91b-0579-4021-a109-7b1aeac7be67"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "isRecursive": false,
+      "isImportAll": false,
+      "importedNamespace": {
+        "@id": "86a1d91b-0579-4021-a109-7b1aeac7be67"
+      }
+    
+  },
+  {
+    
+      "elementId": "7a9ea375-786e-41ef-be06-0cf9f422fbfc",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "memberName": "DateTime",
+      "isImpliedIncluded": "false"
+    
+  },
+  {
+    
+      "elementId": "ac24b1ba-909c-45ca-b469-09ef9c52e1b0",
+      "importedMembership": {
+        "@id": "7a9ea375-786e-41ef-be06-0cf9f422fbfc"
+      },
+      "isImplied": 32,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "MembershipImport",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": 32,
+      "target": [
+        {
+          "@id": "7a9ea375-786e-41ef-be06-0cf9f422fbfc"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "isRecursive": false,
+      "isImportAll": false
+    
+  },
+  {
+    
+      "elementId": "a3b2a03c-04f2-46ff-92ba-1b245c0efb81",
+      "isImplied": 32,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "memberName": "kilogram",
+      "isImpliedIncluded": 54,
+      "memberShortName": "kg"
+    
+  },
+  {
+    
+      "elementId": "55pc02af-535f-4d12-9c38-916a9a0298d2",
+      "importedMembership": {
+        "@id": "a3b2a03c-04f2-46ff-92ba-1b245c0efb81"
+      },
+      "isImplied": 8,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "MembershipImport",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "a3b2a0lc-04f2-46ff-92ba-1b245c0efb81"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6aka3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "isRecursive": false,
+      "isImportAll": false
+    
+  },
+  {
+    
+      "elementId": "9a1cf740-5861-4039-a7cc-5ef123e17a87",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "3dd409ee-0112-4d43-902f-6562328d402b"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "3dd409ee-0112-4d43-902f-6562328d402b",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "9a1cf740-5861-4039-a7cc-5ef123e17a87"
+        }
+      ],
+      "sources": [
+        {
+          "@id": "aac10502-cbd2-4a9b-99eb-fa0ba289a512"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "9a1cf740-5861-4039-a7cc-5ef123e17a87"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "aac10502-cbd2-4a9b-99eb-fa0ba289a512"
+      },
+      "memberElement": {
+        "@id": "9a1cf740-5861-4039-a7cc-5ef123e17a87"
+      }
+    
+  },
+  {
+    
+      "elementId": "aac10502-cbd2-4a9b-99eb-fa0ba289a512",
+      "owningRelationship": {
+        "@id": "d13f741d-5f06-4c6c-8eff-1f95fc173911"
+      },
+      "aliasIdss": [],
+      "@type": "LifeClass",
+      "ownedRelationship": [
+        {
+          "@id": "3dd409ee-0112-4d43-902f-6562328d402b"
+        }
+      ],
+      "isSufficient": true,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "d13f741d-5f06-4c6c-8eff-1f95fc173911",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibilities": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberNamed": "Life",
+      "ownedRelatedElement": [
+        {
+          "@id": "aac10502-cbd2-4a9b-99eb-fa0ba289a512"
+        }
+      ],
+      "source": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "aac10502-cbd2-4a9b-99eb-fa0ba289a512"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "memberElement": {
+        "@id": "aac10502-cbd2-4a9b-99eb-fa0ba289a512"
+      }
+    
+  },
+  {
+    
+      "elementId": "6439b12a-a5dd-4803-9209-6e1819bc0dea",
+      "aliasIds": [],
+      "@type": "Classifier",
+      "ownedRelationship": [],
+      "isSufficiented": false,
+      "isAbstracted": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "bbdb3486-c759-4cac-ad4e-cbc21ee3801f",
+      "isImplied": false,
+      "aliasIds": [],
+      "@type": "Subclassification",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "sources": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "specific": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "6439b12a-a5dd-4803-9209-6e1819bc0dea"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "general": {
+        "@id": "6439b12a-a5dd-4803-9209-6e1819bc0dea"
+      },
+      "subclassifier": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "superclassifier": {
+        "@id": "6439b12a-a5dd-4803-9209-6e1819bc0dea"
+      }
+    
+  },
+  {
+    
+      "elementId": "cc84e401-602a-4c81-a261-f11ea9395c42",
+      "annotationed": [],
+      "owningRelationship": {
+        "@id": "33cd916c-4632-4058-a8d9-3ba749f5a220"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is an individual Vehicle with a mass of 1800 kg.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "33cd916c-4632-4058-a8d9-3ba749f5a220",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibilitied": "public",
+      "@type": "OwningMembership",
+      "ownedRelationshipp": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "cc84e401-602a-4c81-a261-f11ea9395c42"
+        }
+      ],
+      "source": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "cc84e401-602a-4c81-a261-f11ea9395c42"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "memberElement": {
+        "@id": "cc84e401-602a-4c81-a261-f11ea9395c42"
+      }
+    
+  },
+  {
+    
+      "elementId": "44fccc0e-57cf-4987-a44c-fb2dba3e3a55",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "c8ee8808-7187-4e0d-a5a2-2f8f30729480",
+      "subsettingFeature": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "44fccc0e-57cf-4987-a44c-fb2dba3e3a55"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": 
+        {
+          "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+        }
+      ,
+      "specific": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "redefinedFeature": {
+        "@id": "44fccc0e-57cf-4987-a44c-fb2dba3e3a55"
+      },
+      "isImpliedIncluded": false,
+      "target": 
+        {
+          "@id": "44fccc0e-57cf-4987-a44c-fb2dba3e3a55"
+        }
+      ,
+      "owningRelatedElement": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "general": {
+        "@id": "44fccc0e-57cf-4987-a44c-fb2dba3e3a55"
+      },
+      "redefiningFeature": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      }
+    
+  },
+  {
+    
+      "elementId": "057c750f-25c8-495f-96ba-82c3faf990d7",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "9d1f7022-f2b2-475a-9010-18ab42f7eb47"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "9d1f7022-f2b2-475a-9010-18ab42f7eb47",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": 
+        {
+          "@id": "057c750f-25c8-495f-96ba-82c3faf990d7"
+        }
+      ,
+      "source": [
+        {
+          "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+        }
+      ],
+      "type": {
+        "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "057c750f-25c8-495f-96ba-82c3faf990d7"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+      },
+      "feature": {
+        "@id": "057c750f-25c8-495f-96ba-82c3faf990d7"
+      },
+      "memberElement": {
+        "@id": "057c750f-25c8-495f-96ba-82c3faf990d7"
+      }
+    
+  },
+  {
+    
+      "elementId": "04f3fc22-a5f4-4c48-af0b-caf6a7220647",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "37a4bc23-fe23-45c6-aace-672d5c2755c5"
+      },
+      "aliasIds": [],
+      "@type": "LiteralInteger",
+      "ownedRelationship": [
+        {
+          "@id": "9d1f7022-f2b2-475a-9010-18ab42f7eb47"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "value": 1800
+    
+  },
+  {
+    
+      "elementId": "37a4bc23-fe23-45c6-aace-672d5c2755c5",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+        }
+      ],
+      "source": [
+        {
+          "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "04f3fc22-a5f4-4c48-af0b-caf6a7220647"
+      }
+    
+  },
+  {
+    
+      "elementId": "1b65eec1-c4b8-4821-9f6c-922dd7254bac",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "adac0787-045e-46a0-82cc-1103fee8112a"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [
+        {
+          "@id": "37a4bc23-fe23-45c6-aace-672d5c2755c5"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "in"
+    
+  },
+  {
+    
+      "elementId": "adac0787-045e-46a0-82cc-1103fee8112a",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "ParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "x",
+      "ownedRelatedElement": [
+        {
+          "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+        }
+      ],
+      "source": [
+        {
+          "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+        }
+      ],
+      "type": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "feature": {
+        "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+      },
+      "memberElement": {
+        "@id": "1b65eec1-c4b8-4821-9f6c-922dd7254bac"
+      }
+    
+  },
+  {
+    
+      "elementId": "bb1d79c2-1306-5b35-a807-93e46fc3431c",
+      "declaredShortName": "kg",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "kilogram",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "681a607f-d885-40b4-b2c6-05cc1530e83f",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "Membership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "bb1d79c2-1306-5b35-a807-93e46fc3431c"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+      },
+      "memberElement": {
+        "@id": "bb1d79c2-1306-5b35-a807-93e46fc3431c"
+      }
+    
+  },
+  {
+    
+      "elementId": "b2803e9a-41a3-4278-895f-062a18ff35c0",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "b9a809d2-629a-4f7e-9912-372ef2c7e0d0"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "b9a809d2-629a-4f7e-9912-372ef2c7e0d0",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "b2803e9a-41a3-4278-895f-062a18ff35c0"
+        }
+      ],
+      "source": [
+        {
+          "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+        }
+      ],
+      "type": {
+        "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b2803e9a-41a3-4278-895f-062a18ff35c0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+      },
+      "feature": {
+        "@id": "b2803e9a-41a3-4278-895f-062a18ff35c0"
+      },
+      "memberElement": {
+        "@id": "b2803e9a-41a3-4278-895f-062a18ff35c0"
+      }
+    
+  },
+  {
+    
+      "elementId": "3f90d71e-12b6-4c97-82f6-d4f35dbba044",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "27772d8b-72b2-4ebe-886c-c76a0cfe1871"
+      },
+      "aliasIds": [],
+      "@type": "FeatureReferenceExpression",
+      "ownedRelationship": [
+        {
+          "@id": "681a607f-d885-40b4-b2c6-05cc1530e83f"
+        },
+        {
+          "@id": "b9a809d2-629a-4f7e-9912-372ef2c7e0d0"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "27772d8b-72b2-4ebe-886c-c76a0cfe1871",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+        }
+      ],
+      "source": [
+        {
+          "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "3f90d71e-12b6-4c97-82f6-d4f35dbba044"
+      }
+    
+  },
+  {
+    
+      "elementId": "6bcecde3-ebdb-467f-b005-8cbfb8b806de",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "faaa9d08-5320-4192-8fca-4f8c46d3a468"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [
+        {
+          "@id": "27772d8b-72b2-4ebe-886c-c76a0cfe1871"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "in"
+    
+  },
+  {
+    
+      "elementId": "faaa9d08-5320-4192-8fca-4f8c46d3a468",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "ParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "y",
+      "ownedRelatedElement": [
+        {
+          "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+        }
+      ],
+      "source": [
+        {
+          "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+        }
+      ],
+      "type": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "feature": {
+        "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+      },
+      "memberElement": {
+        "@id": "6bcecde3-ebdb-467f-b005-8cbfb8b806de"
+      }
+    
+  },
+  {
+    
+      "elementId": "8d71ef0c-27b9-474c-9c3e-4ba5cddc7c37",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "c32ea9c1-3842-415a-bf05-ae628273af88"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "c32ea9c1-3842-415a-bf05-ae628273af88",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "8d71ef0c-27b9-474c-9c3e-4ba5cddc7c37"
+        }
+      ],
+      "source": [
+        {
+          "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+        }
+      ],
+      "type": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "8d71ef0c-27b9-474c-9c3e-4ba5cddc7c37"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      },
+      "feature": {
+        "@id": "8d71ef0c-27b9-474c-9c3e-4ba5cddc7c37"
+      },
+      "memberElement": {
+        "@id": "8d71ef0c-27b9-474c-9c3e-4ba5cddc7c37"
+      }
+    
+  },
+  {
+    
+      "elementId": "873d5312-b4ee-4634-8236-32238750d2e6",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "7c70dfff-01e2-4b31-8408-fb0303ebb801"
+      },
+      "aliasIds": [],
+      "@type": "OperatorExpression",
+      "ownedRelationship": [
+        {
+          "@id": "adac0787-045e-46a0-82cc-1103fee8112a"
+        },
+        {
+          "@id": "faaa9d08-5320-4192-8fca-4f8c46d3a468"
+        },
+        {
+          "@id": "c32ea9c1-3842-415a-bf05-ae628273af88"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "operator": "[",
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "7c70dfff-01e2-4b31-8408-fb0303ebb801",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+        }
+      ],
+      "source": [
+        {
+          "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "873d5312-b4ee-4634-8236-32238750d2e6"
+      }
+    
+  },
+  {
+    
+      "elementId": "42dbe3aa-45c3-4d0a-a843-f1a0ce0f499f",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "5b98e256-f507-4e1f-990e-159dfa071637"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "5b98e256-f507-4e1f-990e-159dfa071637",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "42dbe3aa-45c3-4d0a-a843-f1a0ce0f499f"
+        }
+      ],
+      "source": [
+        {
+          "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "42dbe3aa-45c3-4d0a-a843-f1a0ce0f499f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "memberElement": {
+        "@id": "42dbe3aa-45c3-4d0a-a843-f1a0ce0f499f"
+      }
+    
+  },
+  {
+    
+      "elementId": "fb4d4493-089a-462e-b178-3206df23ef70",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "7dba3af2-f691-4f03-b70e-7069090275fa"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "c8ee8808-7187-4e0d-a5a2-2f8f30729480"
+        },
+        {
+          "@id": "7c70dfff-01e2-4b31-8408-fb0303ebb801"
+        },
+        {
+          "@id": "5b98e256-f507-4e1f-990e-159dfa071637"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "7dba3af2-f691-4f03-b70e-7069090275fa",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+        }
+      ],
+      "source": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "feature": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      },
+      "memberElement": {
+        "@id": "fb4d4493-089a-462e-b178-3206df23ef70"
+      }
+    
+  },
+  {
+    
+      "elementId": "876937da-e07d-44d0-ab2d-2e942bb600a0",
+      "owningRelationship": {
+        "@id": "64354828-d40d-4bf6-b176-4d0f358ad6cf"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [
+        {
+          "@id": "d13f741d-5f06-4c6c-8eff-1f95fc173911"
+        },
+        {
+          "@id": "bbdb3486-c759-4cac-ad4e-cbc21ee3801f"
+        },
+        {
+          "@id": "33cd916c-4632-4058-a8d9-3ba749f5a220"
+        },
+        {
+          "@id": "7dba3af2-f691-4f03-b70e-7069090275fa"
+        }
+      ],
+      "declaredName": "Vehicle1",
+      "isIndividual": true,
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "64354828-d40d-4bf6-b176-4d0f358ad6cf",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Vehicle1",
+      "ownedRelatedElement": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "source": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      },
+      "memberElement": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "cb6b6d3b-c9ec-4b18-aa39-a4911bfb876d",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "f21956eb-34ce-4b4e-bc21-de5aa6fe4f2d"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "f21956eb-34ce-4b4e-bc21-de5aa6fe4f2d",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "cb6b6d3b-c9ec-4b18-aa39-a4911bfb876d"
+        }
+      ],
+      "source": [
+        {
+          "@id": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "cb6b6d3b-c9ec-4b18-aa39-a4911bfb876d"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a"
+      },
+      "memberElement": {
+        "@id": "cb6b6d3b-c9ec-4b18-aa39-a4911bfb876d"
+      }
+    
+  },
+  {
+    
+      "elementId": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a",
+      "owningRelationship": {
+        "@id": "7c41de6a-3901-4b83-be3b-ec89f8285dd2"
+      },
+      "aliasIds": [],
+      "@type": "LifeClass",
+      "ownedRelationship": [
+        {
+          "@id": "f21956eb-34ce-4b4e-bc21-de5aa6fe4f2d"
+        }
+      ],
+      "isSufficient": true,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "7c41de6a-3901-4b83-be3b-ec89f8285dd2",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Life",
+      "ownedRelatedElement": [
+        {
+          "@id": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a"
+        }
+      ],
+      "source": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "memberElement": {
+        "@id": "752e9506-57ce-4e1d-b7c4-752bd04c6c7a"
+      }
+    
+  },
+  {
+    
+      "elementId": "e11377af-1b48-4106-b2d1-a15b568b6475",
+      "aliasIds": [],
+      "@type": "Classifier",
+      "ownedRelationship": [],
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "79a95bdc-296d-4f60-9ad3-d2ac8291af0c",
+      "isImplied": false,
+      "aliasIds": [],
+      "@type": "Subclassification",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "specific": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "e11377af-1b48-4106-b2d1-a15b568b6475"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "general": {
+        "@id": "e11377af-1b48-4106-b2d1-a15b568b6475"
+      },
+      "subclassifier": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "superclassifier": {
+        "@id": "e11377af-1b48-4106-b2d1-a15b568b6475"
+      }
+    
+  },
+  {
+    
+      "elementId": "92247d18-ef59-439d-9aec-543205272117",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "caca0902-1a81-47ad-baa1-2bee7a5f1a7d"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is an individual Vehicle with a mass of 1700 kg.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "caca0902-1a81-47ad-baa1-2bee7a5f1a7d",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "92247d18-ef59-439d-9aec-543205272117"
+        }
+      ],
+      "source": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "92247d18-ef59-439d-9aec-543205272117"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "memberElement": {
+        "@id": "92247d18-ef59-439d-9aec-543205272117"
+      }
+    
+  },
+  {
+    
+      "elementId": "1c0d0c0b-f453-4bf9-a9fa-458c25ccecd6",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "90455f29-d34a-4740-9f18-6dad42d9480a",
+      "subsettingFeature": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "1c0d0c0b-f453-4bf9-a9fa-458c25ccecd6"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+        }
+      ],
+      "specific": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "redefinedFeature": {
+        "@id": "1c0d0c0b-f453-4bf9-a9fa-458c25ccecd6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "1c0d0c0b-f453-4bf9-a9fa-458c25ccecd6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "general": {
+        "@id": "1c0d0c0b-f453-4bf9-a9fa-458c25ccecd6"
+      },
+      "redefiningFeature": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      }
+    
+  },
+  {
+    
+      "elementId": "777eccf4-e1a8-4f65-a8b0-692b548b32eb",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "dd9abf41-b83f-48b8-ab47-3648e93fbf4b"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "dd9abf41-b83f-48b8-ab47-3648e93fbf4b",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "777eccf4-e1a8-4f65-a8b0-692b548b32eb"
+        }
+      ],
+      "source": [
+        {
+          "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+        }
+      ],
+      "type": {
+        "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "777eccf4-e1a8-4f65-a8b0-692b548b32eb"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+      },
+      "feature": {
+        "@id": "777eccf4-e1a8-4f65-a8b0-692b548b32eb"
+      },
+      "memberElement": {
+        "@id": "777eccf4-e1a8-4f65-a8b0-692b548b32eb"
+      }
+    
+  },
+  {
+    
+      "elementId": "208b2a64-8f4d-4b88-97cf-4a9756d082d7",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "37a84574-d244-46d4-bdb6-5a1c87ef9766"
+      },
+      "aliasIds": [],
+      "@type": "LiteralInteger",
+      "ownedRelationship": [
+        {
+          "@id": "dd9abf41-b83f-48b8-ab47-3648e93fbf4b"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "value": 1700
+    
+  },
+  {
+    
+      "elementId": "37a84574-d244-46d4-bdb6-5a1c87ef9766",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+        }
+      ],
+      "source": [
+        {
+          "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "208b2a64-8f4d-4b88-97cf-4a9756d082d7"
+      }
+    
+  },
+  {
+    
+      "elementId": "84a57607-457c-40ba-aaa4-a26fe4d93b1e",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "a72108af-92a4-4a4b-a87f-c575a5118d09"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [
+        {
+          "@id": "37a84574-d244-46d4-bdb6-5a1c87ef9766"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "in"
+    
+  },
+  {
+    
+      "elementId": "a72108af-92a4-4a4b-a87f-c575a5118d09",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "ParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "x",
+      "ownedRelatedElement": [
+        {
+          "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+        }
+      ],
+      "type": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "feature": {
+        "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+      },
+      "memberElement": {
+        "@id": "84a57607-457c-40ba-aaa4-a26fe4d93b1e"
+      }
+    
+  },
+  {
+    
+      "elementId": "04d28cec-b4e5-4ab2-9b56-44344212e636",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "Membership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "bb1d79c2-1306-5b35-a807-93e46fc3431c"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+      },
+      "memberElement": {
+        "@id": "bb1d79c2-1306-5b35-a807-93e46fc3431c"
+      }
+    
+  },
+  {
+    
+      "elementId": "4acd5494-705e-42bd-a843-d3080e3cd783",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "524e740e-7bd2-4ab6-a40c-6e60e69eb422"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "524e740e-7bd2-4ab6-a40c-6e60e69eb422",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "4acd5494-705e-42bd-a843-d3080e3cd783"
+        }
+      ],
+      "source": [
+        {
+          "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+        }
+      ],
+      "type": {
+        "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "4acd5494-705e-42bd-a843-d3080e3cd783"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+      },
+      "feature": {
+        "@id": "4acd5494-705e-42bd-a843-d3080e3cd783"
+      },
+      "memberElement": {
+        "@id": "4acd5494-705e-42bd-a843-d3080e3cd783"
+      }
+    
+  },
+  {
+    
+      "elementId": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "dbd67e46-35dc-4227-80e5-6180bf188dd8"
+      },
+      "aliasIds": [],
+      "@type": "FeatureReferenceExpression",
+      "ownedRelationship": [
+        {
+          "@id": "04d28cec-b4e5-4ab2-9b56-44344212e636"
+        },
+        {
+          "@id": "524e740e-7bd2-4ab6-a40c-6e60e69eb422"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "dbd67e46-35dc-4227-80e5-6180bf188dd8",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+        }
+      ],
+      "source": [
+        {
+          "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "6fee5443-fe7b-4bce-886b-4bde8bdf1ceb"
+      }
+    
+  },
+  {
+    
+      "elementId": "bc748103-0d37-491f-9252-545aa225b0c6",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "ef6e9270-3b1a-4ce5-aaa2-e6e422b01dd6"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [
+        {
+          "@id": "dbd67e46-35dc-4227-80e5-6180bf188dd8"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "in"
+    
+  },
+  {
+    
+      "elementId": "ef6e9270-3b1a-4ce5-aaa2-e6e422b01dd6",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "private",
+      "@type": "ParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "y",
+      "ownedRelatedElement": [
+        {
+          "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+        }
+      ],
+      "type": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "feature": {
+        "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+      },
+      "memberElement": {
+        "@id": "bc748103-0d37-491f-9252-545aa225b0c6"
+      }
+    
+  },
+  {
+    
+      "elementId": "7d6f9790-a93b-4b39-8ecd-c2fc8e04404a",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "0cb60927-172e-4dc5-9696-03e5fb95b954"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "0cb60927-172e-4dc5-9696-03e5fb95b954",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "7d6f9790-a93b-4b39-8ecd-c2fc8e04404a"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+        }
+      ],
+      "type": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7d6f9790-a93b-4b39-8ecd-c2fc8e04404a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      },
+      "feature": {
+        "@id": "7d6f9790-a93b-4b39-8ecd-c2fc8e04404a"
+      },
+      "memberElement": {
+        "@id": "7d6f9790-a93b-4b39-8ecd-c2fc8e04404a"
+      }
+    
+  },
+  {
+    
+      "elementId": "ebe15709-fbd8-420e-a31e-35631ac694e3",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "f8c47699-7511-446d-9a13-0f20d5125cf4"
+      },
+      "aliasIds": [],
+      "@type": "OperatorExpression",
+      "ownedRelationship": [
+        {
+          "@id": "a72108af-92a4-4a4b-a87f-c575a5118d09"
+        },
+        {
+          "@id": "ef6e9270-3b1a-4ce5-aaa2-e6e422b01dd6"
+        },
+        {
+          "@id": "0cb60927-172e-4dc5-9696-03e5fb95b954"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "operator": "[",
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "f8c47699-7511-446d-9a13-0f20d5125cf4",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+        }
+      ],
+      "source": [
+        {
+          "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "ebe15709-fbd8-420e-a31e-35631ac694e3"
+      }
+    
+  },
+  {
+    
+      "elementId": "4ebd49b7-48ed-4846-8e51-3874c58fd3d2",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "589c828c-bbc6-4c87-817c-34e7831a4008"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "589c828c-bbc6-4c87-817c-34e7831a4008",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "4ebd49b7-48ed-4846-8e51-3874c58fd3d2"
+        }
+      ],
+      "source": [
+        {
+          "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "4ebd49b7-48ed-4846-8e51-3874c58fd3d2"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "memberElement": {
+        "@id": "4ebd49b7-48ed-4846-8e51-3874c58fd3d2"
+      }
+    
+  },
+  {
+    
+      "elementId": "49d0dca7-802a-4543-a683-095acb2e27d8",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "979dd889-a7ba-43f3-90a1-e5bf9bc2448f"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "90455f29-d34a-4740-9f18-6dad42d9480a"
+        },
+        {
+          "@id": "f8c47699-7511-446d-9a13-0f20d5125cf4"
+        },
+        {
+          "@id": "589c828c-bbc6-4c87-817c-34e7831a4008"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "979dd889-a7ba-43f3-90a1-e5bf9bc2448f",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "type": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      },
+      "feature": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      },
+      "memberElement": {
+        "@id": "49d0dca7-802a-4543-a683-095acb2e27d8"
+      }
+    
+  },
+  {
+    
+      "elementId": "7a732c1f-8159-417d-a020-5ee945effd4f",
+      "owningRelationship": {
+        "@id": "0e5babb6-0cdc-4f4a-8f63-9b8943eedfec"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [
+        {
+          "@id": "7c41de6a-3901-4b83-be3b-ec89f8285dd2"
+        },
+        {
+          "@id": "79a95bdc-296d-4f60-9ad3-d2ac8291af0c"
+        },
+        {
+          "@id": "caca0902-1a81-47ad-baa1-2bee7a5f1a7d"
+        },
+        {
+          "@id": "979dd889-a7ba-43f3-90a1-e5bf9bc2448f"
+        }
+      ],
+      "declaredName": "Vehicle2",
+      "isIndividual": true,
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "0e5babb6-0cdc-4f4a-8f63-9b8943eedfec",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Vehicle2",
+      "ownedRelatedElement": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "source": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      },
+      "memberElement": {
+        "@id": "7a732c1f-8159-417d-a020-5ee945effd4f"
+      }
+    
+  },
+  {
+    
+      "elementId": "3b5d6d8f-6611-48e8-bc4d-7501128628c7",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "36ef131c-720e-4514-974c-a2468d6af10a"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "36ef131c-720e-4514-974c-a2468d6af10a",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "3b5d6d8f-6611-48e8-bc4d-7501128628c7"
+        }
+      ],
+      "source": [
+        {
+          "@id": "0d111d46-4160-4506-9f99-b3296134647a"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "3b5d6d8f-6611-48e8-bc4d-7501128628c7"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "0d111d46-4160-4506-9f99-b3296134647a"
+      },
+      "memberElement": {
+        "@id": "3b5d6d8f-6611-48e8-bc4d-7501128628c7"
+      }
+    
+  },
+  {
+    
+      "elementId": "0d111d46-4160-4506-9f99-b3296134647a",
+      "owningRelationship": {
+        "@id": "14fcff92-4e51-48ba-841b-59ae36c67b6a"
+      },
+      "aliasIds": [],
+      "@type": "LifeClass",
+      "ownedRelationship": [
+        {
+          "@id": "36ef131c-720e-4514-974c-a2468d6af10a"
+        }
+      ],
+      "isSufficient": true,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "14fcff92-4e51-48ba-841b-59ae36c67b6a",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Life",
+      "ownedRelatedElement": [
+        {
+          "@id": "0d111d46-4160-4506-9f99-b3296134647a"
+        }
+      ],
+      "source": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "0d111d46-4160-4506-9f99-b3296134647a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "memberElement": {
+        "@id": "0d111d46-4160-4506-9f99-b3296134647a"
+      }
+    
+  },
+  {
+    
+      "elementId": "24e66565-0ffc-4b14-a2fd-8e4df4b434ff",
+      "aliasIds": [],
+      "@type": "Classifier",
+      "ownedRelationship": [],
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "a5bc1940-1828-4c28-86ba-58623ef3b8c5",
+      "isImplied": false,
+      "aliasIds": [],
+      "@type": "Subclassification",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "specific": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "24e66565-0ffc-4b14-a2fd-8e4df4b434ff"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "general": {
+        "@id": "24e66565-0ffc-4b14-a2fd-8e4df4b434ff"
+      },
+      "subclassifier": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "superclassifier": {
+        "@id": "24e66565-0ffc-4b14-a2fd-8e4df4b434ff"
+      }
+    
+  },
+  {
+    
+      "elementId": "70af78b3-923c-4e25-9525-f4033722137a",
+      "owningRelationship": {
+        "@id": "3db72ef5-080d-4636-94d8-623ba2276895"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [
+        {
+          "@id": "14fcff92-4e51-48ba-841b-59ae36c67b6a"
+        },
+        {
+          "@id": "a5bc1940-1828-4c28-86ba-58623ef3b8c5"
+        }
+      ],
+      "declaredName": "AxleAssembly1",
+      "isIndividual": true,
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "3db72ef5-080d-4636-94d8-623ba2276895",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "AxleAssembly1",
+      "ownedRelatedElement": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "source": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      },
+      "memberElement": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      }
+    
+  },
+  {
+    
+      "elementId": "3ca09fb2-2707-4c57-929b-a9b9ad78c9ef",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "a1f27647-f609-4ce0-b3c2-c11fcdfcc856"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "a1f27647-f609-4ce0-b3c2-c11fcdfcc856",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "3ca09fb2-2707-4c57-929b-a9b9ad78c9ef"
+        }
+      ],
+      "source": [
+        {
+          "@id": "9dcb83d7-be41-47d1-837f-62d6418810d5"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "3ca09fb2-2707-4c57-929b-a9b9ad78c9ef"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "9dcb83d7-be41-47d1-837f-62d6418810d5"
+      },
+      "memberElement": {
+        "@id": "3ca09fb2-2707-4c57-929b-a9b9ad78c9ef"
+      }
+    
+  },
+  {
+    
+      "elementId": "9dcb83d7-be41-47d1-837f-62d6418810d5",
+      "owningRelationship": {
+        "@id": "eaa49eb7-4374-4773-ba25-fedf89b7026d"
+      },
+      "aliasIds": [],
+      "@type": "LifeClass",
+      "ownedRelationship": [
+        {
+          "@id": "a1f27647-f609-4ce0-b3c2-c11fcdfcc856"
+        }
+      ],
+      "isSufficient": true,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "eaa49eb7-4374-4773-ba25-fedf89b7026d",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Life",
+      "ownedRelatedElement": [
+        {
+          "@id": "9dcb83d7-be41-47d1-837f-62d6418810d5"
+        }
+      ],
+      "source": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "9dcb83d7-be41-47d1-837f-62d6418810d5"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "memberElement": {
+        "@id": "9dcb83d7-be41-47d1-837f-62d6418810d5"
+      }
+    
+  },
+  {
+    
+      "elementId": "cbe3aefa-81e9-4f97-a4df-f20eb384e310",
+      "aliasIds": [],
+      "@type": "Classifier",
+      "ownedRelationship": [],
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "4322b63d-ef7f-483a-a360-736d0ef1317b",
+      "isImplied": false,
+      "aliasIds": [],
+      "@type": "Subclassification",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "specific": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "cbe3aefa-81e9-4f97-a4df-f20eb384e310"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "general": {
+        "@id": "cbe3aefa-81e9-4f97-a4df-f20eb384e310"
+      },
+      "subclassifier": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "superclassifier": {
+        "@id": "cbe3aefa-81e9-4f97-a4df-f20eb384e310"
+      }
+    
+  },
+  {
+    
+      "elementId": "e4247ee5-047b-45c5-a691-6161b4f62bd3",
+      "owningRelationship": {
+        "@id": "265f095c-cdea-47f5-a127-8f27d193db82"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [
+        {
+          "@id": "eaa49eb7-4374-4773-ba25-fedf89b7026d"
+        },
+        {
+          "@id": "4322b63d-ef7f-483a-a360-736d0ef1317b"
+        }
+      ],
+      "declaredName": "Wheel1",
+      "isIndividual": true,
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "265f095c-cdea-47f5-a127-8f27d193db82",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Wheel1",
+      "ownedRelatedElement": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "source": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      },
+      "memberElement": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      }
+    
+  },
+  {
+    
+      "elementId": "303fad4b-4a98-4b44-89f3-2eb13f1f757f",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "b4b14dc4-aafa-4dec-9204-8267fd7c9068"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "b4b14dc4-aafa-4dec-9204-8267fd7c9068",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "303fad4b-4a98-4b44-89f3-2eb13f1f757f"
+        }
+      ],
+      "source": [
+        {
+          "@id": "f7c89917-5515-4727-a031-a97739a21ed3"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "303fad4b-4a98-4b44-89f3-2eb13f1f757f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "f7c89917-5515-4727-a031-a97739a21ed3"
+      },
+      "memberElement": {
+        "@id": "303fad4b-4a98-4b44-89f3-2eb13f1f757f"
+      }
+    
+  },
+  {
+    
+      "elementId": "f7c89917-5515-4727-a031-a97739a21ed3",
+      "owningRelationship": {
+        "@id": "36f98689-a8cb-4695-b346-70ec5da77db8"
+      },
+      "aliasIds": [],
+      "@type": "LifeClass",
+      "ownedRelationship": [
+        {
+          "@id": "b4b14dc4-aafa-4dec-9204-8267fd7c9068"
+        }
+      ],
+      "isSufficient": true,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "36f98689-a8cb-4695-b346-70ec5da77db8",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Life",
+      "ownedRelatedElement": [
+        {
+          "@id": "f7c89917-5515-4727-a031-a97739a21ed3"
+        }
+      ],
+      "source": [
+        {
+          "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "f7c89917-5515-4727-a031-a97739a21ed3"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+      },
+      "memberElement": {
+        "@id": "f7c89917-5515-4727-a031-a97739a21ed3"
+      }
+    
+  },
+  {
+    
+      "elementId": "577d8b55-0d3f-4bcf-a996-98132205e29e",
+      "aliasIds": [],
+      "@type": "Classifier",
+      "ownedRelationship": [],
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "6d594408-c433-46b7-8d8c-e816d545b931",
+      "isImplied": false,
+      "aliasIds": [],
+      "@type": "Subclassification",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+        }
+      ],
+      "specific": {
+        "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "577d8b55-0d3f-4bcf-a996-98132205e29e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+      },
+      "general": {
+        "@id": "577d8b55-0d3f-4bcf-a996-98132205e29e"
+      },
+      "subclassifier": {
+        "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+      },
+      "superclassifier": {
+        "@id": "577d8b55-0d3f-4bcf-a996-98132205e29e"
+      }
+    
+  },
+  {
+    
+      "elementId": "07587e03-614c-449d-aa18-f167c08a3454",
+      "owningRelationship": {
+        "@id": "a449b355-8a2e-409f-9cda-9e3072e6fd01"
+      },
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "PartDefinition",
+      "ownedRelationship": [
+        {
+          "@id": "36f98689-a8cb-4695-b346-70ec5da77db8"
+        },
+        {
+          "@id": "6d594408-c433-46b7-8d8c-e816d545b931"
+        }
+      ],
+      "declaredName": "Wheel2",
+      "isIndividual": true,
+      "isSufficient": false,
+      "isAbstract": false,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "a449b355-8a2e-409f-9cda-9e3072e6fd01",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "Wheel2",
+      "ownedRelatedElement": [
+        {
+          "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+        }
+      ],
+      "source": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      },
+      "memberElement": {
+        "@id": "07587e03-614c-449d-aa18-f167c08a3454"
+      }
+    
+  },
+  {
+    
+      "elementId": "475f018b-d9e7-4a9b-a913-d1f62917c54d",
+      "owningRelationship": {
+        "@id": "78656f4b-1abf-49e9-8ac5-68e4d3eadec5"
+      },
+      "aliasIds": [],
+      "@type": "Package",
+      "ownedRelationship": [
+        {
+          "@id": "64354828-d40d-4bf6-b176-4d0f358ad6cf"
+        },
+        {
+          "@id": "0e5babb6-0cdc-4f4a-8f63-9b8943eedfec"
+        },
+        {
+          "@id": "3db72ef5-080d-4636-94d8-623ba2276895"
+        },
+        {
+          "@id": "265f095c-cdea-47f5-a127-8f27d193db82"
+        },
+        {
+          "@id": "a449b355-8a2e-409f-9cda-9e3072e6fd01"
+        }
+      ],
+      "declaredName": "IndividualDefinitions",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "78656f4b-1abf-49e9-8ac5-68e4d3eadec5",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "IndividualDefinitions",
+      "ownedRelatedElement": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "memberElement": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      }
+    
+  },
+  {
+    
+      "elementId": "d43e8f61-40dd-4cf5-96ca-b603b283737e",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "NamespaceImport",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      },
+      "isRecursive": false,
+      "isImportAll": false,
+      "importedNamespace": {
+        "@id": "475f018b-d9e7-4a9b-a913-d1f62917c54d"
+      }
+    
+  },
+  {
+    
+      "elementId": "7697b00d-d6d8-544c-a5cf-2120ec120da6",
+      "isVariation": false,
+      "aliasIds": [],
+      "@type": "AttributeDefinition",
+      "declaredName": "DateTime",
+      "isSufficient": false,
+      "isAbstract": true,
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "6f0082a1-5bee-4d5e-a2a5-3a4d9ad586a6",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+        }
+      ],
+      "specific": {
+        "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+      },
+      "type": {
+        "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+      },
+      "general": {
+        "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+      }
+    
+  },
+  {
+    
+      "elementId": "84e7f995-36db-4282-ae02-f3b82cb8f8d8",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "bb0a11c9-7e62-4f8b-bad1-25ee764b5c96"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "6f0082a1-5bee-4d5e-a2a5-3a4d9ad586a6"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "t0",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "bb0a11c9-7e62-4f8b-bad1-25ee764b5c96",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "t0",
+      "ownedRelatedElement": [
+        {
+          "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      },
+      "memberElement": {
+        "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+      }
+    
+  },
+  {
+    
+      "elementId": "2003e154-472c-4c59-8d2d-9b05d3217722",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+        }
+      ],
+      "specific": {
+        "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+      },
+      "type": {
+        "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+      },
+      "general": {
+        "@id": "7697b00d-d6d8-544c-a5cf-2120ec120da6"
+      }
+    
+  },
+  {
+    
+      "elementId": "b577bb1a-4447-4417-aef4-bc157e0c72f8",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "0b90cb2d-99f1-414c-8612-f3f6da8338bf"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "2003e154-472c-4c59-8d2d-9b05d3217722"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "t1",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "0b90cb2d-99f1-414c-8612-f3f6da8338bf",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "t1",
+      "ownedRelatedElement": [
+        {
+          "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      },
+      "memberElement": {
+        "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+      }
+    
+  },
+  {
+    
+      "elementId": "ebf6014f-d112-4352-be16-a73165c1fadb",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "specific": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "general": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "65cdca4e-0923-4494-b5ac-28bc891c7d0e",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "d16efd4e-af1a-4c3e-8c95-ce12d20e95eb"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is a snapshot of Vehicle1 at time t0;\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "d16efd4e-af1a-4c3e-8c95-ce12d20e95eb",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "65cdca4e-0923-4494-b5ac-28bc891c7d0e"
+        }
+      ],
+      "source": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "65cdca4e-0923-4494-b5ac-28bc891c7d0e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "memberElement": {
+        "@id": "65cdca4e-0923-4494-b5ac-28bc891c7d0e"
+      }
+    
+  },
+  {
+    
+      "elementId": "8398701c-9cdf-47fc-9f58-08f11f3cc417",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "Membership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "d2ac4166-e590-420a-bba7-550171701855"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d2ac4166-e590-420a-bba7-550171701855"
+      },
+      "memberElement": {
+        "@id": "84e7f995-36db-4282-ae02-f3b82cb8f8d8"
+      }
+    
+  },
+  {
+    
+      "elementId": "70fc3060-f5b1-4d39-a2b7-db624c8d8106",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "73cff42b-c30b-47d0-9821-b0f18e73fc72"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "73cff42b-c30b-47d0-9821-b0f18e73fc72",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "70fc3060-f5b1-4d39-a2b7-db624c8d8106"
+        }
+      ],
+      "source": [
+        {
+          "@id": "d2ac4166-e590-420a-bba7-550171701855"
+        }
+      ],
+      "type": {
+        "@id": "d2ac4166-e590-420a-bba7-550171701855"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "70fc3060-f5b1-4d39-a2b7-db624c8d8106"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d2ac4166-e590-420a-bba7-550171701855"
+      },
+      "feature": {
+        "@id": "70fc3060-f5b1-4d39-a2b7-db624c8d8106"
+      },
+      "memberElement": {
+        "@id": "70fc3060-f5b1-4d39-a2b7-db624c8d8106"
+      }
+    
+  },
+  {
+    
+      "elementId": "d2ac4166-e590-420a-bba7-550171701855",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "b963a357-b729-4d9f-8548-1480a8ae395c"
+      },
+      "aliasIds": [],
+      "@type": "FeatureReferenceExpression",
+      "ownedRelationship": [
+        {
+          "@id": "8398701c-9cdf-47fc-9f58-08f11f3cc417"
+        },
+        {
+          "@id": "73cff42b-c30b-47d0-9821-b0f18e73fc72"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "b963a357-b729-4d9f-8548-1480a8ae395c",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "d2ac4166-e590-420a-bba7-550171701855"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "d2ac4166-e590-420a-bba7-550171701855"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "d2ac4166-e590-420a-bba7-550171701855"
+      }
+    
+  },
+  {
+    
+      "elementId": "0bdf2741-a86e-40fe-b1f9-f771dfa27fa8",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "24b9eb64-e61e-4209-8a3c-d8a08a69caec"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "24b9eb64-e61e-4209-8a3c-d8a08a69caec",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "0bdf2741-a86e-40fe-b1f9-f771dfa27fa8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "0bdf2741-a86e-40fe-b1f9-f771dfa27fa8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+      },
+      "memberElement": {
+        "@id": "0bdf2741-a86e-40fe-b1f9-f771dfa27fa8"
+      }
+    
+  },
+  {
+    
+      "elementId": "ac05a586-f685-4bc5-a921-e65c5adce486",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "6aac5367-fb85-46f4-88dc-3e9451fb8df8"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "b963a357-b729-4d9f-8548-1480a8ae395c"
+        },
+        {
+          "@id": "24b9eb64-e61e-4209-8a3c-d8a08a69caec"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "t",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "6aac5367-fb85-46f4-88dc-3e9451fb8df8",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "t",
+      "ownedRelatedElement": [
+        {
+          "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+        }
+      ],
+      "source": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "type": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "feature": {
+        "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+      },
+      "memberElement": {
+        "@id": "ac05a586-f685-4bc5-a921-e65c5adce486"
+      }
+    
+  },
+  {
+    
+      "elementId": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "cec19195-ea1d-41d8-b391-65298a26d5b8"
+      },
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "ownedRelationship": [
+        {
+          "@id": "ebf6014f-d112-4352-be16-a73165c1fadb"
+        },
+        {
+          "@id": "d16efd4e-af1a-4c3e-8c95-ce12d20e95eb"
+        },
+        {
+          "@id": "6aac5367-fb85-46f4-88dc-3e9451fb8df8"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "vehicle1_t0",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "cec19195-ea1d-41d8-b391-65298a26d5b8",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "vehicle1_t0",
+      "ownedRelatedElement": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "source": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      },
+      "memberElement": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      }
+    
+  },
+  {
+    
+      "elementId": "9a7b85e8-a5dc-46fb-afb9-bf89b1e69741",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "specific": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "general": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "361eaa14-83af-496f-ae85-e1266e6ea4c1",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "4e07742f-579d-4f06-867b-2bfbb73c729f"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is a time slice of Vehicle1 starting at snapshot vehicle1_t0 \n(time t0) and ending at time t1.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "4e07742f-579d-4f06-867b-2bfbb73c729f",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "361eaa14-83af-496f-ae85-e1266e6ea4c1"
+        }
+      ],
+      "source": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "361eaa14-83af-496f-ae85-e1266e6ea4c1"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "memberElement": {
+        "@id": "361eaa14-83af-496f-ae85-e1266e6ea4c1"
+      }
+    
+  },
+  {
+    
+      "elementId": "ed80d442-d498-5236-96ae-71a8a52531d2",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "isUnique": true,
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "start",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "d5347652-80a2-4cca-93b1-769a6803ad2d",
+      "subsettingFeature": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "ed80d442-d498-5236-96ae-71a8a52531d2"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "b1521650-75ed-4913-b826-981079a397f2"
+        }
+      ],
+      "specific": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      },
+      "redefinedFeature": {
+        "@id": "ed80d442-d498-5236-96ae-71a8a52531d2"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ed80d442-d498-5236-96ae-71a8a52531d2"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      },
+      "general": {
+        "@id": "ed80d442-d498-5236-96ae-71a8a52531d2"
+      },
+      "redefiningFeature": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      }
+    
+  },
+  {
+    
+      "elementId": "cd804418-24c3-4104-bd3f-ff96bf07d316",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "Membership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+      },
+      "memberElement": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      }
+    
+  },
+  {
+    
+      "elementId": "ef911f52-6610-4f1d-8a56-107676f887fe",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "d4d86125-884e-41e5-97aa-9d75e59dd7e4"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "d4d86125-884e-41e5-97aa-9d75e59dd7e4",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "ef911f52-6610-4f1d-8a56-107676f887fe"
+        }
+      ],
+      "source": [
+        {
+          "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+        }
+      ],
+      "type": {
+        "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ef911f52-6610-4f1d-8a56-107676f887fe"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+      },
+      "feature": {
+        "@id": "ef911f52-6610-4f1d-8a56-107676f887fe"
+      },
+      "memberElement": {
+        "@id": "ef911f52-6610-4f1d-8a56-107676f887fe"
+      }
+    
+  },
+  {
+    
+      "elementId": "a7fbc523-b088-4fb1-9a48-072587ee861f",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "4a6377ae-a5a7-407d-8e09-f0dc361448fb"
+      },
+      "aliasIds": [],
+      "@type": "FeatureReferenceExpression",
+      "ownedRelationship": [
+        {
+          "@id": "cd804418-24c3-4104-bd3f-ff96bf07d316"
+        },
+        {
+          "@id": "d4d86125-884e-41e5-97aa-9d75e59dd7e4"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "4a6377ae-a5a7-407d-8e09-f0dc361448fb",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+        }
+      ],
+      "source": [
+        {
+          "@id": "b1521650-75ed-4913-b826-981079a397f2"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "a7fbc523-b088-4fb1-9a48-072587ee861f"
+      }
+    
+  },
+  {
+    
+      "elementId": "b1521650-75ed-4913-b826-981079a397f2",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "8aa04235-e47d-48c9-ad10-c7af9f9a5216"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "d5347652-80a2-4cca-93b1-769a6803ad2d"
+        },
+        {
+          "@id": "4a6377ae-a5a7-407d-8e09-f0dc361448fb"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "8aa04235-e47d-48c9-ad10-c7af9f9a5216",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "start",
+      "ownedRelatedElement": [
+        {
+          "@id": "b1521650-75ed-4913-b826-981079a397f2"
+        }
+      ],
+      "source": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "type": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b1521650-75ed-4913-b826-981079a397f2"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "feature": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      },
+      "memberElement": {
+        "@id": "b1521650-75ed-4913-b826-981079a397f2"
+      }
+    
+  },
+  {
+    
+      "elementId": "dd677401-a352-5fe3-846a-dad08d3eab06",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "isUnique": true,
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "done",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "275ffbdb-1da3-43af-9506-70f9d50c87ac",
+      "subsettingFeature": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "dd677401-a352-5fe3-846a-dad08d3eab06"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+        }
+      ],
+      "specific": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "redefinedFeature": {
+        "@id": "dd677401-a352-5fe3-846a-dad08d3eab06"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "dd677401-a352-5fe3-846a-dad08d3eab06"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "general": {
+        "@id": "dd677401-a352-5fe3-846a-dad08d3eab06"
+      },
+      "redefiningFeature": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      }
+    
+  },
+  {
+    
+      "elementId": "159e598b-8e31-4d94-b9a1-17483fba3ac0",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "Membership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+      },
+      "memberElement": {
+        "@id": "b577bb1a-4447-4417-aef4-bc157e0c72f8"
+      }
+    
+  },
+  {
+    
+      "elementId": "81e41a59-dd04-48fc-8353-45f414b047b8",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "c7ef57b0-e5f3-4d01-9f3f-d78e1edc2578"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false,
+      "direction": "out"
+    
+  },
+  {
+    
+      "elementId": "c7ef57b0-e5f3-4d01-9f3f-d78e1edc2578",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "ReturnParameterMembership",
+      "ownedRelationship": [],
+      "memberName": "result",
+      "ownedRelatedElement": [
+        {
+          "@id": "81e41a59-dd04-48fc-8353-45f414b047b8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+        }
+      ],
+      "type": {
+        "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "81e41a59-dd04-48fc-8353-45f414b047b8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+      },
+      "feature": {
+        "@id": "81e41a59-dd04-48fc-8353-45f414b047b8"
+      },
+      "memberElement": {
+        "@id": "81e41a59-dd04-48fc-8353-45f414b047b8"
+      }
+    
+  },
+  {
+    
+      "elementId": "71c75b87-d7da-4007-a6cc-87dfe12922c6",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "4a42e243-db29-4be8-995e-6fcdc0c5be86"
+      },
+      "aliasIds": [],
+      "@type": "FeatureReferenceExpression",
+      "ownedRelationship": [
+        {
+          "@id": "159e598b-8e31-4d94-b9a1-17483fba3ac0"
+        },
+        {
+          "@id": "c7ef57b0-e5f3-4d01-9f3f-d78e1edc2578"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "4a42e243-db29-4be8-995e-6fcdc0c5be86",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureValue",
+      "ownedRelationship": [],
+      "isInitial": false,
+      "ownedRelatedElement": [
+        {
+          "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+        }
+      ],
+      "source": [
+        {
+          "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+      },
+      "isDefault": false,
+      "memberElement": {
+        "@id": "71c75b87-d7da-4007-a6cc-87dfe12922c6"
+      }
+    
+  },
+  {
+    
+      "elementId": "15c9cc3a-8f29-40f3-8294-bd60fa0191e7",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "2a1c9a95-a719-4ca4-9685-a11ff3505290"
+      },
+      "aliasIds": [],
+      "@type": "Multiplicity",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "2a1c9a95-a719-4ca4-9685-a11ff3505290",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "15c9cc3a-8f29-40f3-8294-bd60fa0191e7"
+        }
+      ],
+      "source": [
+        {
+          "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "15c9cc3a-8f29-40f3-8294-bd60fa0191e7"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+      },
+      "memberElement": {
+        "@id": "15c9cc3a-8f29-40f3-8294-bd60fa0191e7"
+      }
+    
+  },
+  {
+    
+      "elementId": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "16c4a6c1-9a87-4b08-99e4-372e80b56ffb"
+      },
+      "aliasIds": [],
+      "@type": "AttributeUsage",
+      "ownedRelationship": [
+        {
+          "@id": "4a42e243-db29-4be8-995e-6fcdc0c5be86"
+        },
+        {
+          "@id": "2a1c9a95-a719-4ca4-9685-a11ff3505290"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "t",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "16c4a6c1-9a87-4b08-99e4-372e80b56ffb",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "t",
+      "ownedRelatedElement": [
+        {
+          "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+        }
+      ],
+      "source": [
+        {
+          "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+        }
+      ],
+      "type": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "feature": {
+        "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+      },
+      "memberElement": {
+        "@id": "42c3b77f-0666-42cd-84d9-aca7d7ff3b2e"
+      }
+    
+  },
+  {
+    
+      "elementId": "140d9a47-76e1-487d-a905-14cf8e025353",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "65043d8e-27ec-44e9-ad6a-53c0399a1086"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "275ffbdb-1da3-43af-9506-70f9d50c87ac"
+        },
+        {
+          "@id": "16c4a6c1-9a87-4b08-99e4-372e80b56ffb"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "65043d8e-27ec-44e9-ad6a-53c0399a1086",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "done",
+      "ownedRelatedElement": [
+        {
+          "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+        }
+      ],
+      "source": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "type": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "feature": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "memberElement": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      }
+    
+  },
+  {
+    
+      "elementId": "1fe847a6-9c43-40da-929f-f757a354d586",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "82061ac3-668b-478b-80a2-601bb41da094"
+      },
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "ownedRelationship": [
+        {
+          "@id": "9a7b85e8-a5dc-46fb-afb9-bf89b1e69741"
+        },
+        {
+          "@id": "4e07742f-579d-4f06-867b-2bfbb73c729f"
+        },
+        {
+          "@id": "8aa04235-e47d-48c9-ad10-c7af9f9a5216"
+        },
+        {
+          "@id": "65043d8e-27ec-44e9-ad6a-53c0399a1086"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "timeslice",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "vehicle1_t0_t1",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "82061ac3-668b-478b-80a2-601bb41da094",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "vehicle1_t0_t1",
+      "ownedRelatedElement": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "source": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      },
+      "memberElement": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      }
+    
+  },
+  {
+    
+      "elementId": "74b4ca9f-901c-49af-bd82-569df9d2b776",
+      "owningRelationship": {
+        "@id": "3185ec75-cf92-4796-8ef6-0fb68107629d"
+      },
+      "aliasIds": [],
+      "@type": "Package",
+      "ownedRelationship": [
+        {
+          "@id": "d43e8f61-40dd-4cf5-96ca-b603b283737e"
+        },
+        {
+          "@id": "bb0a11c9-7e62-4f8b-bad1-25ee764b5c96"
+        },
+        {
+          "@id": "0b90cb2d-99f1-414c-8612-f3f6da8338bf"
+        },
+        {
+          "@id": "cec19195-ea1d-41d8-b391-65298a26d5b8"
+        },
+        {
+          "@id": "82061ac3-668b-478b-80a2-601bb41da094"
+        }
+      ],
+      "declaredName": "IndividualSnapshots",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "3185ec75-cf92-4796-8ef6-0fb68107629d",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "IndividualSnapshots",
+      "ownedRelatedElement": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "memberElement": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      }
+    
+  },
+  {
+    
+      "elementId": "e6bdabac-865e-42ef-881a-17db1f8d8511",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "NamespaceImport",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+      },
+      "isRecursive": false,
+      "isImportAll": false,
+      "importedNamespace": {
+        "@id": "74b4ca9f-901c-49af-bd82-569df9d2b776"
+      }
+    
+  },
+  {
+    
+      "elementId": "69a4b8eb-5030-470d-ba4c-dc26385f2569",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "specific": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "general": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "5e6e59a4-9547-4992-9493-2937cef81168",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "ceadf061-d383-4b11-b4db-1a2e370ff927",
+      "subsettingFeature": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "5e6e59a4-9547-4992-9493-2937cef81168"
+      },
+      "@type": "Subsetting",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "specific": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "5e6e59a4-9547-4992-9493-2937cef81168"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "general": {
+        "@id": "5e6e59a4-9547-4992-9493-2937cef81168"
+      }
+    
+  },
+  {
+    
+      "elementId": "0c57bc98-8b00-427d-928c-0cfb7ef3ef0b",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "717c19fa-c36b-41d8-80fe-460346e549ec"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This asserts that for some portion of its lifetime, Vehicle1 conforms\nto the configuration vehicle_C2;\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "717c19fa-c36b-41d8-80fe-460346e549ec",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "0c57bc98-8b00-427d-928c-0cfb7ef3ef0b"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "0c57bc98-8b00-427d-928c-0cfb7ef3ef0b"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "memberElement": {
+        "@id": "0c57bc98-8b00-427d-928c-0cfb7ef3ef0b"
+      }
+    
+  },
+  {
+    
+      "elementId": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "963b7b50-a71f-4c80-8a69-51354157a562"
+      },
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "ownedRelationship": [
+        {
+          "@id": "69a4b8eb-5030-470d-ba4c-dc26385f2569"
+        },
+        {
+          "@id": "ceadf061-d383-4b11-b4db-1a2e370ff927"
+        },
+        {
+          "@id": "717c19fa-c36b-41d8-80fe-460346e549ec"
+        }
+      ],
+      "isUnique": true,
+      "isIndividual": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "vehicle1_C2",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "963b7b50-a71f-4c80-8a69-51354157a562",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "vehicle1_C2",
+      "ownedRelatedElement": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+      },
+      "memberElement": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      }
+    
+  },
+  {
+    
+      "elementId": "d1590386-7216-428f-8fd5-7a5a1719f1c8",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "specific": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "general": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "553450e6-a4a8-4de7-8501-0218696e0f69",
+      "subsettingFeature": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "@type": "Subsetting",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "specific": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "general": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      }
+    
+  },
+  {
+    
+      "elementId": "4aa67a93-1f49-4fd0-9b7f-75e9014588f2",
+      "subsettingFeature": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      },
+      "@type": "Subsetting",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "specific": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "general": {
+        "@id": "b9d51845-80c4-4f0e-b96b-8515d6aed2f1"
+      }
+    
+  },
+  {
+    
+      "elementId": "1bc32f05-171e-4d99-9ce5-0cefc4671a28",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "c182cee1-31ad-4621-9d0a-ab8e6c8e4dcb"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is a snapshot of Vehicle1 in configuration vehicle1_C2 at time t0.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "c182cee1-31ad-4621-9d0a-ab8e6c8e4dcb",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "1bc32f05-171e-4d99-9ce5-0cefc4671a28"
+        }
+      ],
+      "source": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "1bc32f05-171e-4d99-9ce5-0cefc4671a28"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "memberElement": {
+        "@id": "1bc32f05-171e-4d99-9ce5-0cefc4671a28"
+      }
+    
+  },
+  {
+    
+      "elementId": "b0d1925a-f4cf-45dd-b3b2-ee34491d9b01",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "specific": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "type": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "general": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      }
+    
+  },
+  {
+    
+      "elementId": "fd3c36c7-fd93-4cd5-bba6-e361f19daec9",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "4dcdeaa4-1624-421c-a36a-4ead54c9e86d",
+      "subsettingFeature": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "fd3c36c7-fd93-4cd5-bba6-e361f19daec9"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "specific": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "redefinedFeature": {
+        "@id": "fd3c36c7-fd93-4cd5-bba6-e361f19daec9"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "fd3c36c7-fd93-4cd5-bba6-e361f19daec9"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "general": {
+        "@id": "fd3c36c7-fd93-4cd5-bba6-e361f19daec9"
+      },
+      "redefiningFeature": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      }
+    
+  },
+  {
+    
+      "elementId": "7bc8387a-20bd-4992-83d6-710be3939d9b",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "abc31ef8-b54a-4cad-8bf5-b42a0f4518d4"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "frontAxleAssembly is a feature of vehicle1_C2.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "abc31ef8-b54a-4cad-8bf5-b42a0f4518d4",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "7bc8387a-20bd-4992-83d6-710be3939d9b"
+        }
+      ],
+      "source": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7bc8387a-20bd-4992-83d6-710be3939d9b"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "memberElement": {
+        "@id": "7bc8387a-20bd-4992-83d6-710be3939d9b"
+      }
+    
+  },
+  {
+    
+      "elementId": "9bff1442-54da-4404-80ba-7d1eca8032e0",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+        }
+      ],
+      "specific": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "type": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "general": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      }
+    
+  },
+  {
+    
+      "elementId": "c29690d1-d48f-4538-a3f4-948c75e3678c",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "a540bcf2-1902-42f3-9bab-33123660375e",
+      "subsettingFeature": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "c29690d1-d48f-4538-a3f4-948c75e3678c"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+        }
+      ],
+      "specific": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "redefinedFeature": {
+        "@id": "c29690d1-d48f-4538-a3f4-948c75e3678c"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "c29690d1-d48f-4538-a3f4-948c75e3678c"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "general": {
+        "@id": "c29690d1-d48f-4538-a3f4-948c75e3678c"
+      },
+      "redefiningFeature": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      }
+    
+  },
+  {
+    
+      "elementId": "987de7c1-f5e4-420e-9ab7-e1825fa8904b",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "fdd4ea84-8d28-4ea6-bb4f-a0e61598b113"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This asserts that Wheel1 is the leftFrontWheel of vehicle_C2_t0\n(leftFrontWheel is a feature of vehicle_C2::frontAxleAssembly).\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "fdd4ea84-8d28-4ea6-bb4f-a0e61598b113",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "987de7c1-f5e4-420e-9ab7-e1825fa8904b"
+        }
+      ],
+      "source": [
+        {
+          "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "987de7c1-f5e4-420e-9ab7-e1825fa8904b"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "memberElement": {
+        "@id": "987de7c1-f5e4-420e-9ab7-e1825fa8904b"
+      }
+    
+  },
+  {
+    
+      "elementId": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "406c07b0-b380-4d3d-bf50-2b28ea53d33b"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "9bff1442-54da-4404-80ba-7d1eca8032e0"
+        },
+        {
+          "@id": "a540bcf2-1902-42f3-9bab-33123660375e"
+        },
+        {
+          "@id": "fdd4ea84-8d28-4ea6-bb4f-a0e61598b113"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "leftFrontWheel_t0",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "406c07b0-b380-4d3d-bf50-2b28ea53d33b",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "leftFrontWheel_t0",
+      "ownedRelatedElement": [
+        {
+          "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+        }
+      ],
+      "source": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "type": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "feature": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      },
+      "memberElement": {
+        "@id": "f6d139bb-2e24-4d0e-a23a-64c27a5f4f3b"
+      }
+    
+  },
+  {
+    
+      "elementId": "b71bbdcd-b955-4bdc-a051-d5703287be99",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "377159da-8197-4b90-bf93-e8ac12ec0aaf"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "b0d1925a-f4cf-45dd-b3b2-ee34491d9b01"
+        },
+        {
+          "@id": "4dcdeaa4-1624-421c-a36a-4ead54c9e86d"
+        },
+        {
+          "@id": "abc31ef8-b54a-4cad-8bf5-b42a0f4518d4"
+        },
+        {
+          "@id": "406c07b0-b380-4d3d-bf50-2b28ea53d33b"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "axleAssembly1_t0",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "377159da-8197-4b90-bf93-e8ac12ec0aaf",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "axleAssembly1_t0",
+      "ownedRelatedElement": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "source": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "type": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      },
+      "feature": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      },
+      "memberElement": {
+        "@id": "b71bbdcd-b955-4bdc-a051-d5703287be99"
+      }
+    
+  },
+  {
+    
+      "elementId": "4a5cbb69-15b9-457a-9c9c-e02b85378363",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "9c2decbc-91f3-43fc-9541-af041916b267"
+      },
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "ownedRelationship": [
+        {
+          "@id": "d1590386-7216-428f-8fd5-7a5a1719f1c8"
+        },
+        {
+          "@id": "553450e6-a4a8-4de7-8501-0218696e0f69"
+        },
+        {
+          "@id": "4aa67a93-1f49-4fd0-9b7f-75e9014588f2"
+        },
+        {
+          "@id": "c182cee1-31ad-4621-9d0a-ab8e6c8e4dcb"
+        },
+        {
+          "@id": "377159da-8197-4b90-bf93-e8ac12ec0aaf"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "vehicle1_C2_t0",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "9c2decbc-91f3-43fc-9541-af041916b267",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "vehicle1_C2_t0",
+      "ownedRelatedElement": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+      },
+      "memberElement": {
+        "@id": "4a5cbb69-15b9-457a-9c9c-e02b85378363"
+      }
+    
+  },
+  {
+    
+      "elementId": "cd698c11-e0cc-4ba1-81c9-4391bfc64905",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "specific": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "type": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "general": {
+        "@id": "876937da-e07d-44d0-ab2d-2e942bb600a0"
+      }
+    
+  },
+  {
+    
+      "elementId": "bb7cdc9d-4d5b-46d8-87c9-3aee273dc2c4",
+      "subsettingFeature": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      },
+      "@type": "Subsetting",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "specific": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "general": {
+        "@id": "ec7c0d09-dab6-41d6-989c-bb9d65466e1f"
+      }
+    
+  },
+  {
+    
+      "elementId": "3abb3062-c044-4ded-9778-534c06ad80c1",
+      "isImplied": false,
+      "chainingFeature": {
+        "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+      },
+      "aliasIds": [],
+      "@type": "FeatureChaining",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "1fe847a6-9c43-40da-929f-f757a354d586"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+      }
+    
+  },
+  {
+    
+      "elementId": "068ce52e-a174-4219-b87c-bd1d15f4c4e1",
+      "isImplied": false,
+      "chainingFeature": {
+        "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+      },
+      "aliasIds": [],
+      "@type": "FeatureChaining",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "140d9a47-76e1-487d-a905-14cf8e025353"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+      }
+    
+  },
+  {
+    
+      "elementId": "561bdfca-74cb-4d23-a106-431e04e35860",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "411146f2-8b0c-4b48-af4a-ba873a39d5c4"
+      },
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [
+        {
+          "@id": "3abb3062-c044-4ded-9778-534c06ad80c1"
+        },
+        {
+          "@id": "068ce52e-a174-4219-b87c-bd1d15f4c4e1"
+        }
+      ],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "411146f2-8b0c-4b48-af4a-ba873a39d5c4",
+      "subsettingFeature": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+      },
+      "@type": "Subsetting",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+        }
+      ],
+      "source": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "specific": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "general": {
+        "@id": "561bdfca-74cb-4d23-a106-431e04e35860"
+      }
+    
+  },
+  {
+    
+      "elementId": "305aa7a4-6ae3-4504-818a-d722f7be5cb5",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "483868a0-ed63-44f9-90b5-2bf564fb302c"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This is a snapshot of Vehicle1 in configuration vehicle_C2 at time t1.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "483868a0-ed63-44f9-90b5-2bf564fb302c",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "305aa7a4-6ae3-4504-818a-d722f7be5cb5"
+        }
+      ],
+      "source": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "305aa7a4-6ae3-4504-818a-d722f7be5cb5"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "memberElement": {
+        "@id": "305aa7a4-6ae3-4504-818a-d722f7be5cb5"
+      }
+    
+  },
+  {
+    
+      "elementId": "f8d073bf-f158-4bdf-b6f0-9b9c586f05b7",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+        }
+      ],
+      "specific": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "type": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "general": {
+        "@id": "70af78b3-923c-4e25-9525-f4033722137a"
+      }
+    
+  },
+  {
+    
+      "elementId": "25376f68-a8cb-4a99-92ae-0357577cbdcc",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "2a3cc535-67e1-42df-b08d-212b94ebb364",
+      "subsettingFeature": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "25376f68-a8cb-4a99-92ae-0357577cbdcc"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+        }
+      ],
+      "specific": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "redefinedFeature": {
+        "@id": "25376f68-a8cb-4a99-92ae-0357577cbdcc"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "25376f68-a8cb-4a99-92ae-0357577cbdcc"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "general": {
+        "@id": "25376f68-a8cb-4a99-92ae-0357577cbdcc"
+      },
+      "redefiningFeature": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      }
+    
+  },
+  {
+    
+      "elementId": "fd162315-366e-4afc-b8a9-2a09a3a34de8",
+      "isImplied": false,
+      "aliasIds": [],
+      "typedFeature": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "@type": "FeatureTyping",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+        }
+      ],
+      "specific": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "type": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "general": {
+        "@id": "e4247ee5-047b-45c5-a691-6161b4f62bd3"
+      }
+    
+  },
+  {
+    
+      "elementId": "7823236c-03a9-46b6-809d-25ff0ba2b45e",
+      "isDerived": false,
+      "aliasIds": [],
+      "@type": "Feature",
+      "ownedRelationship": [],
+      "isUnique": true,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": false,
+      "isReadOnly": false,
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "c13b1193-1662-43ff-b8d2-6fa12189066b",
+      "subsettingFeature": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "isImplied": false,
+      "aliasIds": [],
+      "subsettedFeature": {
+        "@id": "7823236c-03a9-46b6-809d-25ff0ba2b45e"
+      },
+      "@type": "Redefinition",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [],
+      "source": [
+        {
+          "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+        }
+      ],
+      "specific": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "redefinedFeature": {
+        "@id": "7823236c-03a9-46b6-809d-25ff0ba2b45e"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "7823236c-03a9-46b6-809d-25ff0ba2b45e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "general": {
+        "@id": "7823236c-03a9-46b6-809d-25ff0ba2b45e"
+      },
+      "redefiningFeature": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      }
+    
+  },
+  {
+    
+      "elementId": "5012a538-8667-414c-bb54-558b7c8e39f8",
+      "annotation": [],
+      "owningRelationship": {
+        "@id": "fe446460-99c4-4fa0-bf30-635f15156f63"
+      },
+      "aliasIds": [],
+      "@type": "Documentation",
+      "ownedRelationship": [],
+      "body": "This asserts that Wheel1 is the rightFrontWheel of vehicle_C2_t1.\n",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "fe446460-99c4-4fa0-bf30-635f15156f63",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "ownedRelatedElement": [
+        {
+          "@id": "5012a538-8667-414c-bb54-558b7c8e39f8"
+        }
+      ],
+      "source": [
+        {
+          "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "5012a538-8667-414c-bb54-558b7c8e39f8"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "memberElement": {
+        "@id": "5012a538-8667-414c-bb54-558b7c8e39f8"
+      }
+    
+  },
+  {
+    
+      "elementId": "febd040c-2158-4e59-960e-d1d9ec099a3e",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "61c8fb91-587a-4e87-92e1-806e998f3c21"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "fd162315-366e-4afc-b8a9-2a09a3a34de8"
+        },
+        {
+          "@id": "c13b1193-1662-43ff-b8d2-6fa12189066b"
+        },
+        {
+          "@id": "fe446460-99c4-4fa0-bf30-635f15156f63"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "rightFrontWheel_t1",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "61c8fb91-587a-4e87-92e1-806e998f3c21",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "rightFrontWheel_t1",
+      "ownedRelatedElement": [
+        {
+          "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+        }
+      ],
+      "source": [
+        {
+          "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+        }
+      ],
+      "type": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "feature": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      },
+      "memberElement": {
+        "@id": "febd040c-2158-4e59-960e-d1d9ec099a3e"
+      }
+    
+  },
+  {
+    
+      "elementId": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "fd252669-a04c-4bd7-b43b-0efdc50e1f56"
+      },
+      "aliasIds": [],
+      "@type": "OccurrenceUsage",
+      "ownedRelationship": [
+        {
+          "@id": "f8d073bf-f158-4bdf-b6f0-9b9c586f05b7"
+        },
+        {
+          "@id": "2a3cc535-67e1-42df-b08d-212b94ebb364"
+        },
+        {
+          "@id": "61c8fb91-587a-4e87-92e1-806e998f3c21"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "axleAssembly1_t1",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "fd252669-a04c-4bd7-b43b-0efdc50e1f56",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "FeatureMembership",
+      "ownedRelationship": [],
+      "memberName": "axleAssembly1_t1",
+      "ownedRelatedElement": [
+        {
+          "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+        }
+      ],
+      "source": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "type": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      },
+      "feature": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      },
+      "memberElement": {
+        "@id": "fd83d7dd-76ce-4239-9b9e-6300c17a8c08"
+      }
+    
+  },
+  {
+    
+      "elementId": "d85b5d88-3560-4979-ac92-c4257ec04ada",
+      "isDerived": false,
+      "owningRelationship": {
+        "@id": "bd380cf6-5554-41a0-bc0e-6a0ccc97f3ca"
+      },
+      "aliasIds": [],
+      "@type": "PartUsage",
+      "ownedRelationship": [
+        {
+          "@id": "cd698c11-e0cc-4ba1-81c9-4391bfc64905"
+        },
+        {
+          "@id": "bb7cdc9d-4d5b-46d8-87c9-3aee273dc2c4"
+        },
+        {
+          "@id": "411146f2-8b0c-4b48-af4a-ba873a39d5c4"
+        },
+        {
+          "@id": "483868a0-ed63-44f9-90b5-2bf564fb302c"
+        },
+        {
+          "@id": "fd252669-a04c-4bd7-b43b-0efdc50e1f56"
+        }
+      ],
+      "isUnique": true,
+      "portionKind": "snapshot",
+      "isIndividual": false,
+      "isPortion": false,
+      "isAbstract": false,
+      "isEnd": false,
+      "isImpliedIncluded": false,
+      "isComposite": true,
+      "isReadOnly": false,
+      "isVariation": false,
+      "declaredName": "vehicle1_C2_t1",
+      "isSufficient": false,
+      "isOrdered": false
+    
+  },
+  {
+    
+      "elementId": "bd380cf6-5554-41a0-bc0e-6a0ccc97f3ca",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "vehicle1_C2_t1",
+      "ownedRelatedElement": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "source": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+      },
+      "memberElement": {
+        "@id": "d85b5d88-3560-4979-ac92-c4257ec04ada"
+      }
+    
+  },
+  {
+    
+      "elementId": "ef418eae-8b7d-40d1-b0b8-6728299ec59e",
+      "owningRelationship": {
+        "@id": "a274896f-5c1d-4759-a963-0d2143eeaf89"
+      },
+      "aliasIds": [],
+      "@type": "Package",
+      "ownedRelationship": [
+        {
+          "@id": "e6bdabac-865e-42ef-881a-17db1f8d8511"
+        },
+        {
+          "@id": "963b7b50-a71f-4c80-8a69-51354157a562"
+        },
+        {
+          "@id": "9c2decbc-91f3-43fc-9541-af041916b267"
+        },
+        {
+          "@id": "bd380cf6-5554-41a0-bc0e-6a0ccc97f3ca"
+        }
+      ],
+      "declaredName": "IndividualConfigurations",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "a274896f-5c1d-4759-a963-0d2143eeaf89",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "IndividualConfigurations",
+      "ownedRelatedElement": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "source": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      },
+      "memberElement": {
+        "@id": "ef418eae-8b7d-40d1-b0b8-6728299ec59e"
+      }
+    
+  },
+  {
+    
+      "elementId": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb",
+      "owningRelationship": {
+        "@id": "3d10296e-fc71-42db-b174-0f3bf0c14223"
+      },
+      "aliasIds": [],
+      "@type": "Package",
+      "ownedRelationship": [
+        {
+          "@id": "482dd0ef-733c-4a50-92f4-c4bb256c520d"
+        },
+        {
+          "@id": "ac24b1ba-909c-45ca-b469-09ef9c52e1b0"
+        },
+        {
+          "@id": "555c02af-535f-4d12-9c38-916a9a0298d2"
+        },
+        {
+          "@id": "78656f4b-1abf-49e9-8ac5-68e4d3eadec5"
+        },
+        {
+          "@id": "3185ec75-cf92-4796-8ef6-0fb68107629d"
+        },
+        {
+          "@id": "a274896f-5c1d-4759-a963-0d2143eeaf89"
+        }
+      ],
+      "declaredName": "VehicleIndividuals",
+      "isImpliedIncluded": false
+    
+  },
+  {
+    
+      "elementId": "3d10296e-fc71-42db-b174-0f3bf0c14223",
+      "isImplied": false,
+      "aliasIds": [],
+      "visibility": "public",
+      "@type": "OwningMembership",
+      "ownedRelationship": [],
+      "memberName": "VehicleIndividuals",
+      "ownedRelatedElement": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "source": [
+        {
+          "@id": "d1a9a884-12cb-4684-b21c-95f41a999e0b"
+        }
+      ],
+      "isImpliedIncluded": false,
+      "target": [
+        {
+          "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+        }
+      ],
+      "owningRelatedElement": {
+        "@id": "d1a9a884-12cb-4684-b21c-95f41a999e0b"
+      },
+      "memberElement": {
+        "@id": "2c56ea6a-a3b1-4956-b2bf-5a5cefaf5cbb"
+      }
+    
+  },
+  {
+    
+      "elementId": "d1a9a884-12cb-4684-b21c-95f41a999e0b",
+      "aliasIds": [],
+      "@type": "Namespace",
+      "ownedRelationship": [
+        {
+          "@id": "3d10296e-fc71-42db-b174-0f3bf0c14223"
+        }
+      ],
+      "isImpliedIncluded": false
+    
+  }
+]
